@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Oswald:wght@200&family=Parisienne&display=swap');
+
+body {
+    background-color: #F1F1F1;
+    font-family: "Oswald";
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#navHome {
+    display: flex;
+    width: 100%;
+    background-color: rgb(193, 8, 137);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav {
+    width: 30%;
+    font-size: large;
+}
+
+.lista {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+}
+
+.lista>li {
+    list-style: none;
+}
+
+.lista>li>a> {
+    text-decoration: none;
+}
+
+ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+#root {
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#buscador {
+    margin: 50px;
+    padding: 20px;
+    width: max-content;
+    margin: auto;
+}
+
+#buscador>input {
+    width: 300px;
+    padding: 10px;
+}
+
+#containerCategorias {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#containerCategorias> .btn-categoria {
+    margin: 10px;
+    border: 1px solid rgb(193, 8, 110);
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+#containerCategorias> .btn-categoria:hover {
+    background-color: rgb(193, 8, 94);
+    color: white;
+    
+}
+
+#contenedorProductos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card>img {
+    display: flex;
+    width: 18rem;
+    height: 300px;
+}
+
+.card>span {
+    margin: 5px;
+}
+
+.card>button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 0, 128);
+    padding: 10 px 20 px;
+    position: fixed;
+    bottom: 0;
+}

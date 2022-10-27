@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre": "Less",
+        "precio": 500,
+        "stock": 15,
+        "categoria": "bombachas",
+        "descripcion": "talle unico en algodon",
+        "img": "./multimedia/less.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Conjunto Blanco",
+        "precio": 2750,
+        "stock": 15,
+        "categoria": "conjuntos",
+        "descripcion": "talle 90/95 de encaje",
+        "img": "./multimedia/conjuntoB.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Conjunto Encaje",
+        "precio": 2000,
+        "stock": 15,
+        "categoria": "conjuntos",
+        "descripcion": "talle 85/90/95 rojo",
+        "img": "./multimedia/conjuntoEnc.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Conjunto Negro",
+        "precio": 2500,
+        "stock": 15,
+        "categoria": "conjuntos",
+        "descripcion": "talle 90/95 de encaje",
+        "img": "./multimedia/conjuntoN.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Corpiño Erotic",
+        "precio": 1000,
+        "stock": 15,
+        "categoria": "corpiños",
+        "descripcion": "talle universal",
+        "img": "./multimedia/corpiñoerotic.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Corpiño Encaje",
+        "precio": 800,
+        "stock": 15,
+        "categoria": "corpiños",
+        "descripcion": "talle 85/90/95 negro-blanco-rojo",
+        "img": "./multimedia/corpiñoenc.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Less Brillos",
+        "precio": 900,
+        "stock": 15,
+        "categoria": "bombachas",
+        "descripcion": "talle universal",
+        "img": "./multimedia/lessbrillo.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre": "Less Regulable",
+        "precio": 750,
+        "stock": 15,
+        "categoria": "bombachas",
+        "descripcion": "talle regulable",
+        "img": "./multimedia/lessregulable.jpg"
+    }
+]
